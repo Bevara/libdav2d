@@ -1,0 +1,14 @@
+{
+    "name": "libdav2d",
+    "description": "AV2 video decoder",
+    "filters":["av2dec"],
+    "help": "This filter decodes AV2 (H.267-era AOM codec) video elementary streams in the low-overhead bitstream format (.obu) using dav2d. GPAC knows no codec ID for AV2 and no demuxer produces an AV2 pid, so this filter reads the elementary stream directly.",
+    "support": [
+        "video"
+    ],
+    "sources":"https://bevara.ddns.net/sources/libdav2d.accessor",
+    "filter_source":{
+        "av2dec" : "dec_av2.c"
+    },
+    "licence_required":false
+}
