@@ -10,5 +10,6 @@
     "filter_source":{
         "av2dec" : "dec_av2.c"
     },
-    "licence_required":false
+    "licence_required":false,
+    "using": ["solver_1"]
 }
