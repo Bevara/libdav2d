@@ -10,7 +10,6 @@
     "filter_source":{
         "av2dec" : "dec_av2.c"
     },
-    "licence_required":false,
     "using": ["solver_1"],
     "runtime": {
         "av2dec": {
@@ -28,5 +27,10 @@
                 }
             ]
         }
+    },
+    "patents": {
+        "status": "under-review",
+        "note": "AV2 is not finalised",
+        "checked": "2026-10-16"
     }
 }
