@@ -10,7 +10,7 @@
     "filter_source":{
         "av2dec" : "dec_av2.c"
     },
-    "using": ["solver_1"],
+    "using": ["mm_solver_1.0.1"],
     "runtime": {
         "av2dec": {
             "outputs": [
